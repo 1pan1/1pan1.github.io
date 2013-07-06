@@ -1,106 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>A Cool Website</title>
-    <style type="text/css">
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            color: white;
-        }
-        body {
-            background-color: green;
-        }
-        .topleft {
-            text-transform: uppercase;
-            color: white;
-            font-size: 26px;
-        }
-        .navbar {
-            padding: 20px;
-            position: fixed;
-            top: 0;
-            height: 40px;
-            width: 100%;
-            z-index: 10;
-            border-bottom: 4px solid white;
-        }
-        .aboutme {
-            padding-bottom: 20px;
-        }
-        .navlinks {
-            position: absolute;
-            right: 60px;
-            top: 26px;
-        }
-        a {
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-        a:hover {
-            color: lightgreen;
-        }
-        .aboutblock {
-            height: 200px;
-            position: relative;
-            color: lightgrey;
-            padding-left: 15px;
-            padding-right: 15px;
-            border: 2px solid grey;
-        }
-        .introblock {
-            position: relative;
-            height: 400px;
-            /*background: url("waterfall.jpg") no-repeat;*/
-            background-color: blue;
-        }
-        .contactblock {
-            height: 600px;
-            position: relative;
-            /*background: url("nature.jpg") no-repeat;*/
-            background-color: red;
-        }
-        .gmaps {
-            height: 350px;
-            width: 400px;
-            background-color: orange;
-            margin-right: auto;
-            margin-left: auto;
-        }
-        .title {
-            color: lightgrey;
-            text-align: center;
-            font-size: 60px;
-            margin-top: 160px;
-            background: grey;
-            display: inline-block;
-            /*position: absolute;
-            width: 400px;
-            height: 100px;*/
-        }
-        h2 {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-        .contactblock h2 {
-            padding-top: 100px;
-        }
-        .contactme {
-            text-align: center;
-        }
-        .contactme a {
-            padding: 0;
-            color: lightgrey;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
     <div class="navbar">
         <span class="topleft">Ethan Niu</span><span class="navlinks"><a href="index.html">Home</a> <a href="about.html">About</a> <a href="contact.html">Contact</a></span>
     </div>
     <div class="introblock">
-        <div class="title">Text</div>
+        <div class ="titlewrap"><div class="title">Text</div></div>
     </div>
     <div class="aboutblock">
         <h2>About Me</h2>
