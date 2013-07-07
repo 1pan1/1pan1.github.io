@@ -54,14 +54,21 @@ a:hover {
 .introblock {
     position: relative;
     height: 400px;
-    /*background: url("waterfall.jpg") no-repeat;*/
+    /*background: url("waterfall.jpg") no-repeat fixed;*/
     background-color: blue;
 }
 .contactblock {
     height: 600px;
     position: relative;
-    /*background: url("nature.jpg") no-repeat;*/
+    /*background: url("nature.jpg") no-repeat fixed;*/
     background-color: red;
+}
+.footerblock {
+    width: 100%;
+    border-top: 4px solid white;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .gmaps {
     height: 350px;
@@ -74,6 +81,9 @@ a:hover {
     float: right;
     position: relative;
     left: -50%;
+}
+footer {
+    padding-left: 10px;
 }
 .title {
     color: lightgrey;
@@ -98,4 +108,9 @@ h2 {
 .contactme a {
     padding: 0;
     color: lightgrey;
+}
+.footerspan {
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
 }
