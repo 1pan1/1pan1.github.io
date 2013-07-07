@@ -11,12 +11,13 @@ body {
     text-transform: uppercase;
     color: white;
     font-size: 26px;
+    float: left;
+    display: inline-block;
 }
 .navbar {
     padding: 20px;
     position: fixed;
     top: 0;
-    height: 40px;
     width: 100%;
     z-index: 10;
     border-bottom: 4px solid white;
@@ -25,9 +26,14 @@ body {
     padding-bottom: 20px;
 }
 .navlinks {
-    position: absolute;
-    right: 60px;
-    top: 26px;
+    /*position: absolute;*/
+    /*float: left;*/
+    /*right: 60px;
+    top: 26px;*/
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 40px;
 }
 a {
     text-decoration: none;
