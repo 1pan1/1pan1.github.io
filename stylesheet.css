@@ -54,13 +54,13 @@ a:hover {
 .introblock {
     position: relative;
     height: 400px;
-    /*background: url("waterfall.jpg") no-repeat fixed;*/
+    background: url("waterfall.jpg") no-repeat fixed;
     background-color: blue;
 }
 .contactblock {
     height: 600px;
     position: relative;
-    /*background: url("nature.jpg") no-repeat fixed;*/
+    background: url("nature.jpg") no-repeat fixed;
     background-color: red;
 }
 .footerblock {
