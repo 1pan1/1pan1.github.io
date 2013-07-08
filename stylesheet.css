@@ -3,16 +3,15 @@
     padding: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: white;
+    line-height: 1.5em;
 }
 body {
     background: url("backgroundpattern.jpg");
 }
 .topleft {
     text-transform: uppercase;
-    color: white;
     font-size: 26px;
     float: left;
-    display: inline-block;
 }
 .navbar {
     padding: 15px;
@@ -24,19 +23,21 @@ body {
 }
 .aboutme {
     padding-bottom: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 .navlinks {
-    /*position: absolute;*/
-    /*float: left;*/
-    /*right: 60px;
-    top: 26px;*/
     display: block;
     text-align: right;
     margin-top: 7px;
     margin-right: 30px;
 }
 iframe {
-
+    width: 400px;
+    height: 350px;
+    color:#0000FF;
+    text-align:left;
+    border: 0px solid white;
 }
 a {
     text-decoration: none;
@@ -47,9 +48,7 @@ a:hover {
     color: lightgreen;
 }
 .aboutblock {
-    height: 200px;
     position: relative;
-    color: lightgrey;
     padding-left: 15px;
     padding-right: 15px;
     border: 2px solid grey;
@@ -57,7 +56,7 @@ a:hover {
 .introblock {
     position: relative;
     height: 400px;
-    background: url("waterfall.jpg") no-repeat fixed;
+    background: url("natureimg.jpg") no-repeat fixed;
 }
 .contactblock {
     height: 600px;
@@ -70,6 +69,13 @@ a:hover {
     background-color: grey;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+img {
+    float: right;
+    width: 40%;
+    max-width: 200px;
+    padding: 30px;
+    padding-top: 0;
 }
 .titlewrap {
     float: right;
@@ -89,6 +95,7 @@ footer {
     left: 50%;
 }
 h2 {
+    padding-top: 10px;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -106,4 +113,9 @@ h2 {
     position: absolute;
     right: 10px;
     bottom: -20px;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
 }
