@@ -35,13 +35,17 @@ h2 {
 }
 /* Navigation */
 
-.topleft {
+.logospan {
     text-transform: uppercase;
     font-size: 26px;
     float: left;
 }
 
-.navbar {
+.logospan img {
+    height: 40px;
+}
+
+nav {
     padding: 15px;
     position: fixed;
     top: 0;
@@ -140,7 +144,7 @@ h2 {
 .footerblock {
     width: 100%;
     border-top: 4px solid white;
-    background-color: gray;
+    background: url("backgroundpattern.jpg");
     padding-top: 10px;
     padding-bottom: 10px;
 }
